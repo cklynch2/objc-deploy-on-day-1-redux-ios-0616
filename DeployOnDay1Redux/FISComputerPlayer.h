@@ -23,6 +23,8 @@ FISTicTacToePosition FISTicTacToePositionMake(NSUInteger column, NSUInteger row)
 
 @property (nonatomic, copy) NSString *symbol;
 @property (nonatomic, weak) FISTicTacToeGame *game;
+@property (nonatomic, strong) NSMutableArray *board;
+
 
 -(FISTicTacToePosition)nextPlay;
 
